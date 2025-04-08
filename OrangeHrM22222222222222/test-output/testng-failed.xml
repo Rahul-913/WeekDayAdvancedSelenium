@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="genericScripts.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="runnerScripts.TC02_VerifyAddEmp">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="ConfigReports"/>
+          <include name="CloseBrowser"/>
+          <include name="Test2"/>
+          <include name="CloseApplication"/>
+          <include name="BrowserConfiguration"/>
+          <include name="FlushReports"/>
+        </methods>
+      </class> <!-- runnerScripts.TC02_VerifyAddEmp -->
+      <class name="runnerScripts.TC01_AddEmp">
+        <methods>
+          <include name="LaunchApplication"/>
+          <include name="ConfigReports"/>
+          <include name="CloseBrowser"/>
+          <include name="AddEmpFeature"/>
+          <include name="CloseApplication"/>
+          <include name="BrowserConfiguration"/>
+          <include name="FlushReports"/>
+        </methods>
+      </class> <!-- runnerScripts.TC01_AddEmp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
