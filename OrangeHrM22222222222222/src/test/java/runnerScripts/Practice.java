@@ -7,7 +7,7 @@ public class Practice
 	@Test
 	public void prac()
 	{
-		System.out.println("Maurya is practicing");
+		System.out.println("Mauryas is practicing");
 	}
 
 }
