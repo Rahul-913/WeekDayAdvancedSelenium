@@ -8,6 +8,7 @@ public class TC03_Verificationforpullingpurpose {
 	public void testcase03()
 	{
 		System.out.println("Pull check");
+		System.out.println("Updated");
 	}
 	
 	
